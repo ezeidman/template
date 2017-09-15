@@ -21,6 +21,7 @@ repositories {
   mavenCentral()
 }
 
+apply plugin: 'application'
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
@@ -44,3 +45,5 @@ dependencies {
 }
 
 check.dependsOn javadoc
+
+mainClassName = "example.Foo"
