@@ -10,7 +10,7 @@ A small repo with gradle boilerplate for a java project with immutables.
 
  - https://immutables.github.io/
 
-## Initial Github Setup
+## Initial GitHub Setup
 
  - SSH keys
    - https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
