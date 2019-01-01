@@ -7,3 +7,8 @@ build/
 .factorypath
 .project
 .settings/
+generated_src/
+*.ipr
+*.iml
+*.iws
+out/
