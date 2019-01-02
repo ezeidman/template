@@ -1,6 +1,11 @@
 apply from: "${rootDir}/shared.gradle"
 
 dependencies {
+
+  compile 'io.undertow:undertow-core:1.4.16.Final'
+  compile 'io.undertow:undertow-servlet:1.4.16.Final'
+  compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.25.1'
+
   compile 'com.google.guava:guava:21.0'
   testCompile 'junit:junit:4.12'
   testCompile 'com.google.truth:truth:0.28'
