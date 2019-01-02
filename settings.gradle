@@ -1,1 +1,1 @@
-include "template-immutables", "template-server"
+include "template-immutables", "template-server", "template-client"

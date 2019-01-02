@@ -1,0 +1,14 @@
+apply from: "${rootDir}/shared.gradle"
+
+dependencies {
+
+  compile 'com.netflix.feign:feign-core:8.18.0'
+  compile 'com.netflix.feign:feign-gson:8.18.0'
+
+  compile 'com.google.guava:guava:21.0'
+  testCompile 'junit:junit:4.12'
+  testCompile 'com.google.truth:truth:0.28'
+  processor 'org.immutables:value:2.5.5'
+}
+
+mainClassName = "example.Client"
